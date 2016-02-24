@@ -9,25 +9,35 @@
 		{
 			vertical-align: center;
 		}
-		body { padding-top: 50px; }
-		.menu2, .ul, .li{
-			display: inline;
+		/*body { padding-top: 50px; }*/
+		.menu2
+		{
+			margin-bottom: 50px;
+			margin-top: -20px;
 		}
-		/*.carousel-inner > .item > img,
-  		.carousel-inner > .item > a > img
-  		{
-      		width: 70%;
-      		margin: auto;
-  		}*/
+		
   		h2{
-  			vertical-align: center;
+  			margin-left: auto;
+  		}
+  		.roundedImage
+  		{
+  			border-radius: 50px;
+  		}
+  		p #colonne1 
+  		{
+  			text-align: left;
+  			font-size: 20px;
+  		}
+  		#colonnetxt
+  		{
+  			text-align: left;
   		}
 		
 	</style>
 </head>
 <body>
 	<div class="barnav">
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar navbar-default navbar-static-top navbar-collapse">
   			<div class="container">
     			<div class="nav navbar-nav navbar-left navbar-text">  
 			        <div><i class="fa fa-envelope"></i><a href="#">hello@email.com</a></div>
@@ -46,7 +56,7 @@
 		</nav>
 	</div>
 	<!-- Deuxième nav bar -->
-	<nav class="navbar navbar-default menu2">
+	<nav class="navbar navbar-default menu2 navbar-collapse">
 	  <div class="container-fluid">
 	    <div class="nav navbar-nav navbar-left navbar-text">
 	    	<img src="images/logo-dark.png"/>
@@ -97,10 +107,10 @@
 		</div>
 	</div>
 	<!--Partie we are here-->
-	<div class="col-md-6 col-md-offset-3">
+	<div class="col-md-8 col-md-offset-2 text-center">
 		<h2>We are <strong>here</strong> to serve you</h2>
 		<p>----------</p>
-		<p>Duis mollis est non commodo luctus nisi erat portitor ligula eget lacina odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+		<p style="font-size: 18px;">Duis mollis est non commodo luctus nisi erat portitor ligula eget lacina odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere</p>
 		<div class="row text-center">
 			<div class="row">
 				<div class="col-xs-4">
@@ -211,5 +221,185 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="col-md-8 col-md-offset-2 text-center" style="background-color:grey;">
+		<h2>Customer <strong>Testimonials</strong></h2>
+		<p>----------</p>
+		<br>
+		<div class="row text-center" >
+			<div class="row">
+				<div class="col-xs-6">
+		            <div class="media">
+		              <div class="media-left media-middle">
+		                <img src="images/t1.jpg" class="roundedImage">
+		              </div>
+		              <div class="media-body">
+		                Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus
+		              </div>
+		            </div>
+		        </div>
+		        <div class="col-xs-6">
+		            <div class="media">
+		              <div class="media-body">
+		                Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenan lacinia bibendum nulla sed consectetur.
+		              </div>
+		              <div class="media-left media-middle">
+		                <img src="images/t2.jpg" class="roundedImage">
+		              </div>
+		            </div>
+		        </div>
+		        
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-xs-6">
+		            <div class="media">
+		              <div class="media-left media-middle">
+		                <img src="images/t3.jpg" class="roundedImage">
+		              </div>
+		              <div class="media-body">
+		                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum  nulla sed consectetur. Nullam iddolor id nibh ultricies
+		              </div>
+		            </div>
+		        </div>
+		        <div class="col-xs-6">
+		            <div class="media">
+		            	<div class="media-body">
+		                Praesent commodo cursus magna ,vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis.
+		              	</div>
+		              	<div class="media-left media-middle">
+		                	<img src="images/t4.jpg" class="roundedImage">
+		              	</div>
+		            </div>
+		        </div>
+			</div>
+			<br/>
+		</div>
+	</div>
+	
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<br><br><br><br><br><br><br><br><br>
+		<div class="row">
+		<h2><strong>Our process</strong> on creating awesome projects</h2>
+		<p>---------</p>
+		<br>
+		<p style="font-size: 18px;">curabitur blandit tempus portiflor. Donec sed odio dui. Fusce dapibus. tellus ac cursus commodo. trotor mauris condimenttum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit</p>
+		<div class="row text-center">
+							
+				<div class=" col-md-1" id="colonne1">
+	            	<img src="images/icon-graph.png" >
+	            </div>
+	            <div class="col-md-4 text-center" id="colonnetxt">
+	            	<h5><strong>Collect Ideas</strong></h5>
+	                <p>Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante vennatis dapibus</p> <br>
+	                <ul>
+	                	<li><p>Cras justo odio. dapibus ac facilisis eget quam</p></li>
+	                	<li><p>Donec ullamcorper nulla non metus auctor fringila</p></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-1"></div>
+	            <div class=" col-md-1" id="colonne1">
+	            	<img src="images/icon-board.png" >
+	            </div>
+	            <div class="col-md-5 text-center" id="colonnetxt">
+	            	<h5><strong>Data Analysis</strong></h5>
+	                <p>Morbi leo risus porta ac consectetur vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo</p> <br>
+	                <ul>
+	                	<li><p>Cras justo odio. dapibus ac facilisis eget quam</p></li>
+	                	<li><p>Donec ullamcorper nulla non metus auctor fringila</p></li>
+	                </ul>
+	            </div>
+	            
+		</div>	 
+		
+		<div class="row text-center">
+			<div class=" col-md-1 " id="colonne1">
+            	<img src="images/icon-heart.png" >
+            </div>
+            <div class="col-md-5 text-center" id="colonnetxt">
+            	<h5><strong>Magic Touch</strong></h5>
+                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula porta felis euismod semper. Cras justo odiio, dapibus ac facilisis in, egestas eget quam</p> <br>
+                <ul>
+                	<li><p>Cras justo odio. dapibus ac facilisis eget quam</p></li>
+                	<li><p>Donec ullamcorper nulla non metus auctor fringila</p></li>
+                </ul>
+            </div>
+           
+            <div class=" col-md-1" id="colonne1">
+            	<img src="images/icon-tv.png" >
+            </div>
+            <div class="col-md-5 text-center" id="colonnetxt">
+            	<h5><strong>Finalize Product</strong></h5>
+                <p>Curabitur blandit tempus porttitor. Vestibulum ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Duis mollis est non commodo luctus</p>
+                <ul>
+                	<li><p>Cras justo odio. dapibus ac facilisis eget quam</p></li>
+                	<li><p>Donec ullamcorper nulla non metus auctor fringila</p></li>
+                </ul>
+            </div>	 
+		</div>
+		</div>
+	</div>
+	<br><br><br><br><br><br><br>
+	
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<div class="jumbotron" style="background-color:grey;">
+			<div class="container">
+	    		<h2>Let's make something <strong>great</strong> together </h2>
+	    		<button type="button" class="btn btn-default">View more work</button>
+	    		<button type="button" class="btn btn-default">Get in touch</button>
+			</div>
+		
+		</div>
+	</div>
+
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="images/b1.jpg" alt="logo">
+		      <div class="caption">
+		        <h3>Parturient Commodo Aenean</h3>
+		        <p>14 OCT 2014 | LOGO PSD | 15</p>
+		        <br>
+		        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient</p>
+		        <a href="#" role="button">Continue Reading -></a>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="images/b2.jpg" alt="logo">
+		      <div class="caption">
+		        <h3>Quam Mollis Ligula Nullam</h3>
+		        <p>12 NOV 2014 | BUSINESS CARD | 15</p>
+		        <br>
+		        <p>Duls mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus</p>
+		        <a href="#" role="button">Continue Reading -></a>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="images/b3.jpg" alt="logo">
+		      <div class="caption">
+		        <h3>Tellus Bibendum Parturient</h3>
+		        <p>23 DEC 2014 | MOCKUP PSD | 15</p>
+		        <br>
+		        <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor.</p>
+		        <br>
+		        <a href="#" role="button">Continue Reading -></a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="">
+		
+		
+	</div>
+	
 </body>
 </html>
+
+
+
